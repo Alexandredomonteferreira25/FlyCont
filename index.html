@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">       
+        <meta name="author" content="Alexandre do Monte Ferreira">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="description" content="Flycont, Escritorio de Contabilidade, Contabilidade">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="icon" href="./imagem/Captura de tela 2024-06-20 200726.png" type="image/x-icon">
+        <title>Flycont|Contabilidade</title>   
+    </head>
+<body>
+    
+    <!--Barra de navegação-->
+    <header class="header">
+        <section class="mini-bar">
+            <section class="contact-info">
+                <span><i class="fas fa-phone-alt"></i> Ligue para nós: (48) 9993-9042</span>
+                <span><i class="fas fa-envelope"></i> E-mail: FlyCont@gmail.com</span>
+            </section>
+            <section class="appointment">
+               
+                <a href="#schedule" class="appointment-button">AGENDE UMA CONSULTA</a>
+            </section>
+        </section>
+        <nav class="navigation">
+            <section class="logo-container">              
+                <a href="#">
+                    <img src="./imagem/Captura de tela 2024-06-20 200726.png" alt="Logo" class="nav-logo">
+                </a>
+            </section>
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link">Início</a></li>
+                <li><a href="#about" class="nav-link">Sobre Nós</a></li>
+                <li><a href="#services" class="nav-link">Contato</a></li>
+                <li><a href="#portfolio" class="nav-link">Serviços</a></li>
+            </ul>
+            <section class="right-container">
+                <section class="search-container">
+                    <a href="#search" class="search-link">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </section>
+                <button class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </section>
+        </nav>
+    </header>
+
+    <main>
+        <!--Banner-->
+        <article class="banner">
+            <section class="carousel">
+                <section class="carousel-inner">
+                    <section class="carousel-item active">
+                        <img src="./imagem/banner segundario.jpg" alt="Image 1">
+                        <section class="banner-content">
+                            <h1>Bem-vindo à FlyCont</h1>
+                            <p>Uma agente de viagens especializada para você.</p>
+                            <section class="banner-buttons">
+                                <a href="#about" class="banner-button">Nossa Empresa</a>
+                                <a href="#contact" class="banner-button">Entre em Contato</a>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="carousel-item">
+                        <img src="imagem/sobre nós.jpg" alt="Image 2">
+                        <section class="banner-content">
+                            <h1>Nossos Serviços</h1>
+                            <p>Qualidade e excelência em tudo o que fazemos.</p>
+                            <section class="banner-buttons">
+                                <a href="#about" class="banner-button">Nossa Empresa</a>
+                                <a href="#contact" class="banner-button">Entre em Contato</a>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+                <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                    &#10094;
+                </a>
+                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                    &#10095;
+                </a>
+            </section>
+        </article>
+
+        <!--Botão flutuate-->
+        <button id="backToTopBtn" title="Voltar ao topo"><i class="fa-solid fa-arrow-up"></i></button>
+
+        <!--Sobre Nós-->
+        <article id="sobre-nos" class="about-us">
+            <section class="container">
+                <section class="about-content">
+                    <section class="about-text">
+                        <h2 class="about-title">Sobre Nós</h2>
+                        <p class="about-description">Bem-vindo à Flycont, sua parceira especializada em contabilidade para empresas de turismo. Aqui na Flycont, entendemos as nuances e os desafios únicos enfrentados pelo setor do turismo. Nosso compromisso é oferecer soluções contábeis personalizadas que não só atendam, mas também antecipem suas necessidades financeiras.</p>
+                        <p class="about-description">Com uma equipe dedicada de profissionais experientes no setor de turismo, estamos preparados para oferecer uma gama completa de serviços contábeis. Desde a gestão detalhada de receitas e despesas até a consultoria estratégica para otimização fiscal, estamos aqui para ajudar sua empresa a crescer de forma sustentável e eficiente.</p>
+                    </section>
+                    <section class="about-image">
+                        <img src="imagem/banner principal.jpg" alt="Sobre Nós">
+                    </section>
+                </section>
+            </section>
+        </article>
+
+        <!--Contato-->
+        <article class="contact-section-wrapper">
+            <h1 class="contact-title">Entre em Contato Conosco</h1>
+            <section class="contact-section">
+                <section class="contact-left">
+                    <h2>Deixe sua <strong class="contact-title-blue">Dúvidas</strong>!</h2>
+                    <p>Está pronto para transformar a contabilidade da sua empresa de turismo? Se você tiver qualquer dúvida ou precisar de mais informações, não hesite em nos contatar. Descubra como podemos simplificar suas operações financeiras e impulsionar o crescimento do seu negócio desde já.</p>
+                    <p>Além de nossos serviços especializados em contabilidade para empresas de turismo, na Flycont estamos comprometidos em oferecer um atendimento personalizado e próximo. Entendemos as particularidades do seu setor e estamos prontos para adaptar nossas soluções às necessidades específicas do seu negócio.</p>
+                </section>
+                <section class="contact-right">
+                    <form action="#" method="post">
+                        <section class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </section>
+                        <section class="form-group">
+                            <label for="phone">Telefone:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </section>
+                        <section class="form-group">
+                            <label for="message">Mensagem:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </section>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </section>
+            </section>
+        </article>
+
+        <!--Nossos serviços-->
+        <article id="nossos-servicos" class="services">
+            <section class="container">
+                <h2 class="services-title">Nossos serviços</h2>
+                <section class="services-grid">
+                    <section class="service-item">
+                        <section class="service-icon">
+                            <i class="fas fa-clipboard"></i>
+                        </section>
+                        <h3 class="service-title">Planejamento Tributário</h3>
+                        <p class="service-description">Otimize sua carga tributária e maximize os lucros.</p>
+                    </section>
+                    <section class="service-item">
+                        <section class="service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </section>
+                        <h3 class="service-title">Gestão Financeira</h3>
+                        <p class="service-description">Controle financeiro eficiente para viagens lucrativas.</p>
+                    </section>
+                    <section class="service-item">
+                        <section class="service-icon">
+                            <i class="fas fa-exclamation-circle"></i>
+                        </section>
+                        <h3 class="service-title">Consultoria Contábil</h3>
+                        <p class="service-description">Estratégias contábeis para o crescimento do seu negócio.</p>
+                    </section>
+                    <section class="service-item">
+                        <section class="service-icon">
+                            <i class="fas fa-home"></i>
+                        </section>
+                        <h3 class="service-title">Auditoria Interna</h3>
+                        <p class="service-description">Segurança e transparência nas suas operações financeiras.</p>
+                    </section>
+                    <section class="service-item">
+                        <section class="service-icon">
+                            <i class="fas fa-piggy-bank"></i>
+                        </section>
+                        <h3 class="service-title">Folha de Pagamento</h3>
+                        <p class="service-description">Gestão precisa e eficiente da folha de pagamento.</p>
+                    </section>
+                    <section class="service-item">
+                        <section class="service-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </section>
+                        <h3 class="service-title">Análise de Custos</h3>
+                        <p class="service-description">Reduza custos operacionais e aumente a rentabilidade.</p>
+                    </section>
+                    <section class="service-item">
+                        <section class="service-icon">
+                            <i class="fas fa-coins"></i>
+                        </section>
+                        <h3 class="service-title">Controle de Fluxo de Caixa</h3>
+                        <p class="service-description">Monitoramento contínuo para manter o caixa saudável.</p>
+                    </section>
+                    <section class="service-item">
+                        <section class="service-icon">
+                            <i class="fas fa-handshake"></i>
+                        </section>
+                        <h3 class="service-title">Relatórios Gerenciais</h3>
+                        <p class="service-description">Dados financeiros detalhados para decisões informadas.</p>
+                    </section>
+                </section>
+            </section>
+        </article>
+
+    </main>
+
+   <!--Footer-->
+   <footer class="footer">
+        <section class="footer-container">
+            <section class="footer-about">
+                <h3>Sobre Nós</h3>
+                <p>Somos uma empresa dedicada a fornecer os melhores serviços. Nossa missão é oferecer qualidade e satisfação.</p>
+            </section>
+            <section class="footer-links">
+                <h3>Links Úteis</h3>
+                <ul>
+                    <li><a href="#home">Início</a></li><br>
+                    <li><a href="#about">Sobre Nós</a></li><br>
+                    <li><a href="#services">Contato</a></li><br>
+                    <li><a href="#portfolio">Serviços</a></li><br>
+                </ul>
+            </section>
+            <section class="footer-contact">
+                <h3>Contato</h3>
+                <p><i class="fas fa-phone-alt"></i> (48) 9993-9042</p>
+                <br>
+                <p><i class="fas fa-envelope"></i>  FlyCont@gmail.com</p>
+            </section>
+            <section class="footer-social">
+                <h3>Siga-nos</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </section>
+        </section>
+        <section class="footer-bottom">
+            <p>&copy; 2024 FlyCont. Todos os direitos reservados.</p>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
