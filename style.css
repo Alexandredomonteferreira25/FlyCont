@@ -183,15 +183,15 @@ html{
 
     /* Ajustes para alinhar logo e ícones */
     .logo-container {
-        margin-bottom: 10px; /* Ajuste a margem inferior conforme necessário */
+        margin-bottom: 10px; 
     }
 
     .nav-logo {
-        height: 30px; /* Ajuste a altura conforme necessário */
+        height: 30px; 
     }
 
     .right-container {
-        margin-top: 10px; /* Ajuste a margem superior conforme necessário */
+        margin-top: 10px; 
     }
 }
 
@@ -211,13 +211,13 @@ html{
 
 .carousel-inner {
     display: flex;
-    width: 200%; /* Twice the width for two images */
+    width: 200%; 
     height: 100%;
     transition: transform 0.5s ease-in-out;
 }
 
 .carousel-item {
-    width: 50%; /* Each image takes half the width */
+    width: 50%; 
     height: 100%;
     position: relative;
 }
@@ -302,7 +302,7 @@ html{
 
 /* Botão flutuate */
 #backToTopBtn {
-    display: none; /* Hidden by default */
+    display: none; 
     position: fixed;
     bottom: 20px;
     right: 30px;

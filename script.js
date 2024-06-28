@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function () {
     next.addEventListener('click', nextSlide);
     prev.addEventListener('click', prevSlide);
 
-    // Auto slide
-    setInterval(nextSlide, 5000); // Change every 5 seconds
+    
+    setInterval(nextSlide, 5000);
 });
 
 
@@ -57,10 +57,10 @@ document.addEventListener('DOMContentLoaded', function () {
     next.addEventListener('click', nextSlide);
     prev.addEventListener('click', prevSlide);
 
-    // Auto slide
-    setInterval(nextSlide, 5000); // Change every 5 seconds
+    
+    setInterval(nextSlide, 5000); // 5 segundos
 
-    // Back to Top Button
+    
     const backToTopBtn = document.getElementById('backToTopBtn');
 
     window.onscroll = function () {
